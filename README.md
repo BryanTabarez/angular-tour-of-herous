@@ -21,7 +21,7 @@ The tutorial was followed using the structure provided by [Angular CLI](https://
 
 * create service with angular-cli
 
-    `ng g service name-service`
+    `ng g service hero`
 
 ---
 
