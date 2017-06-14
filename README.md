@@ -7,14 +7,28 @@ The tutorial was followed using the structure provided by [Angular CLI](https://
 ---
 ## Some of the commands used
 
-* create new app *
-ng new angular-tour-of-heroes
+* create new app
 
-* generate component *
-ng g component hero-detail
+    `ng new angular-tour-of-heroes`
 
-* generate class *
-ng g class hero
+* generate component
 
-* create service with angular-cli *
-ng g service name-service
+    `ng g component hero-detail`
+
+* generate class
+
+    `ng g class hero`
+
+* create service with angular-cli
+
+    `ng g service name-service`
+
+---
+
+## Deploy in github-pages using [angular-cli-ghpages](https://github.com/angular-buch/angular-cli-ghpages)
+
+* install
+    `npm i -g angular-cli-ghpages`
+
+* create the dist folder (build the project) to deploy on the same repository 
+    `ng build --prod` or shorter version `ngh`
