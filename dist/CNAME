@@ -1,3 +1,0 @@
-ng build
-echo "bryantabarez.github.io" > dist/CNAME
-angular-cli-ghpages
